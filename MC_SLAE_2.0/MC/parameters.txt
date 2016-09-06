@@ -1,0 +1,7 @@
+alpha = 0.85
+eps = 0.00001
+dimension = 30
+num_m = 131072
+threads_per_block = 1024
+seed = 1234
+sims_per_thread = 5

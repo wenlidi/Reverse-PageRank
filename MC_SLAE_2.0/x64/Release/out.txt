@@ -1,0 +1,36 @@
+reading parameters from parameters.txt...
+alpha = 0.85
+eps = 1e-005
+d = 30
+num_m = 131072
+threads_per_block = 1024
+seed = 1234
+
+reading graph information from in.txt
+Number of primitive graph's 0 out-degree nodes:1
+Number of nodes:5
+Number of edges:13
+Number of maximun out-degree:5
+Number of minimun out-degree:1
+Number of maximun in-degree:4
+Number of minimun in-degree:1
+
+running Metro Carlo method at GPU: GeForce GTX 960M
+Elapsed Time of generate random number per variable: 0.324489ms
+finish calculating 0node's expectation
+finish calculating 1node's expectation
+finish calculating 2node's expectation
+finish calculating 3node's expectation
+finish calculating 4node's expectation
+finish all simulations
+Elapsed Time: 7.64642ms
+average elapsed time for one variable: 1.52928ms
+minimal elapsed time for one variable£º1.51586ms
+maximal elapsed time for one variable£º1.53876ms
+total error: 0.00997198
+
+running power iterations method at CPU...
+Number of Iterations:14
+total error: 0
+Elapsed Time: 0ms
+

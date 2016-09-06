@@ -1,0 +1,9 @@
+reading parameters from parameters.txt...
+alpha = 0.85
+eps = 1e-005
+d = 30
+num_m = 131072
+threads_per_block = 1024
+seed = 1234
+
+reading graph information from input3.txt

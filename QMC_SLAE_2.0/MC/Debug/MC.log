@@ -1,0 +1,11 @@
+﻿生成启动时间为 2016/5/16 14:19:55。
+     1>项目“D:\project\MC\MC\MC.vcxproj”在节点 2 上(Build 个目标)。
+     1>Link:
+         D:\Program Files (x86)\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\project\MC\Debug\MC.exe" /INCREMENTAL /NOLOGO /LIBPATH:"C:\Program Files\NVIDIA GPU Computing Toolkit\CUDA\v7.5\lib\Win32" cublas.lib cublas_device.lib cuda.lib cudadevrt.lib cudart.lib cudart_static.lib cufft.lib cufftw.lib curand.lib cusolver.lib cusparse.lib nppc.lib nppi.lib npps.lib nvblas.lib nvcuvid.lib nvrtc.lib OpenCL.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"D:\project\MC\Debug\MC.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\project\MC\Debug\MC.lib" /MACHINE:X86 Debug\MC_gpu.cu.obj
+         Debug\main.obj
+     1>LINK : fatal error LNK1104: 无法打开文件“cublas.lib”
+     1>已完成生成项目“D:\project\MC\MC\MC.vcxproj”(Build 个目标)的操作 - 失败。
+
+生成失败。
+
+已用时间 00:00:00.14
